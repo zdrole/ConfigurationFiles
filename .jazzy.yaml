@@ -1,0 +1,34 @@
+# Name of author to attribute in doc.
+author_name: Ziga Drole
+# Author URL of this project
+author_url: http://www.zigadrole.com
+# Folder to output the HTML docs to. Default: docs
+output: Docs
+# Delete contents of output directory before running. Dont use  ~/Desktop will delete desktop.
+clean: true
+# Name of module being documented.
+module_name: BLETestDocs
+# Module version. will be used when generating docset
+version: 1.0
+# Swift Version
+swift_version: 2.1
+# Hide "(X% documented)" from the generated documents
+hide_documentation_coverage: false
+# Don't document declarations that have no documentation comments.
+skip_undocumented: false
+# Minimum access control level to document. Default: public [private | internal | public]
+min_acl: public
+
+# GitHub URL of this project
+#github_url: https://github.com/xxx
+# Files to be excluded from documentation
+#excluded_files: path/XXXX-ObjC.swift
+
+copyright: '© 2015 [Ziga Drole s.p.](http://www.zigadrole.com) under [MIT license](https://www.zigadrole.com/BLETestDocs/LICENSE_MIT).'
+
+custom_categories:
+  - name: Managers
+    children:
+    - BLEManager
+
+
