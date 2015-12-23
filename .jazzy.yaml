@@ -24,11 +24,13 @@ min_acl: public
 # Files to be excluded from documentation
 #excluded_files: path/XXXX-ObjC.swift
 
-copyright: '© 2015 [Ziga Drole s.p.](http://www.zigadrole.com) under [MIT license](https://www.zigadrole.com/BLETestDocs/LICENSE_MIT).'
+copyright: '© 2015 [Ziga Drole](http://www.zigadrole.com) under [MIT license](https://www.zigadrole.com/BLETestDocs/LICENSE_MIT).'
 
+# Custom navigation categories on the left. Replaces standard “Classes, Protocols, etc.”
+# Types not explicitly named in a custom category appear in generic groups at the end.
 custom_categories:
   - name: Managers
     children:
-    - BLEManager
+    - ManagerX
 
 
