@@ -24,6 +24,7 @@ min_acl: public
 # Files to be excluded from documentation
 #excluded_files: path/XXXX-ObjC.swift
 
+# Copyright markdown rendered at the bottom of the docs pages
 copyright: '© 2015 [Ziga Drole](http://www.zigadrole.com) under [MIT license](https://www.zigadrole.com/BLETestDocs/LICENSE_MIT).'
 
 # Custom navigation categories on the left. Replaces standard “Classes, Protocols, etc.”
